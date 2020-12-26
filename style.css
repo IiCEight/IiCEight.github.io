@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: 42px;
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+    height: 42px;
+    width: 100px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav ul li {
+    float: left;
+    margin:0 45px;
+}
+
+.nav ul li a{
+
+    padding:0 15px; 
+    line-height: 42px;
+    font-size: 18px;
+    color: #050505;
+}
+
+.nav ul li a:hover {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color:hotpink;
+    color: rgb(25, 189, 253);
+}
+
+.search {
+    float: left;
+    width: 480px;
+    height: 42px;
+    margin-left: 150px;
+}
+
+.search input {
+    float:left;
+    width: 360px;
+    height: 38px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-style: solid;
+    border-color:rgb(25, 189, 253);
+    border-right: none;
+    color:silver;
+    font-size: 16px;
+    padding-left:15px;
+}
+
+.search button {
+    float:left;
+    width: 60px;
+    height: 42px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:none;
+    background-color: rgb(25, 189, 253);
+    font-size: 16px;
+}
+
+.banner {
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(images/saber.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 140% -30px;
+
+
+}
+.banner:hover {
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.657);
+}
+
+.banner .name {
+    height: 400px;
+    background-image: url(images/saber-1.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: left 30%;
+}
+
+.each {
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 10px 5px 10px 1px #00000036;
+    border-radius: 3px;
+    margin-top: 20px;   
+}
+
+.each ul li {
+    float: left;
+    height:auto;
+}
+
+.bg {
+    /* background-image: url(images/saber.png); */
+    background-color: rgb(246, 246, 246);
+}
+
+
