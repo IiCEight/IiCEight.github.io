@@ -5,55 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我爱呆毛</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        .navigate {
-            height:60px;
-            background-color:ghostwhite;
-            opacity: 0.8;
-
-        }
-        
-        .bg {
-            background-image: url(https://github.com/IiCEight/IiCEight.github.io/saber.png);
-            background-repeat: no-repeat;
-            background-position: left top;
-            background-size: 120%;
-            background-attachment: scroll;
-        }
-
-        div a {
-            display: inline-block;
-            width: 500px;
-            height: 50px;
-            line-height: 50px;
-            background-color:lightcyan;
-            font-size:30px;
-            color: hotpink;
-            text-decoration: none;
-            text-align: center;
-            letter-spacing: 0.2em;
-        }
-
-        a:hover {
-            background-color:lightpink;
-            color:rgb(0, 46, 105);
-        }
-    </style>
+    <link rel = "stylesheet" href = "style.css">
 </head>
 
 <body class = "bg">
-    <div class = "navigate">
-        
+    <div class = "header w">
+        <div class = "logo">
+            <img src = "images/logo.png">
+        </div>
+
+        <div class = "nav">
+            <ul>
+                <li><a href = "#">首页</a></li>
+                <li><a href = "#">故事</a></li>
+                <li><a href = "#">游戏</a></li>
+            </ul>
+        </div>
+
+        <div class = "search">
+            <input type = "text" value = "请输入关键字">
+            <button>搜索</button>
+        </div>
     </div>
-        <span>首页</span>
-    <div>
-        <a href = "#">阿尔托莉雅·潘德拉贡</a>
+
+    <div class = "banner">
+        <div class = "name"></div>
+    </div>
+
+    <div class = "each w">
+        <ul>
+            <li>Saber</li>
+            <li>Saber [Alter]</li>
+            <li>Archer</li>
+            <li>Lancer</li>
+            <li>Caster</li>
+            <li>Rider</li>
+            <li>Assassin</li>
+            <li>Berserker</li>
+        </ul>
     </div>
 </body>
-
 </html>
