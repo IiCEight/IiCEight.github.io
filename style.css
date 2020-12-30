@@ -10,6 +10,11 @@
     margin: auto;
 }
 
+.bg {
+    /* background-image: url(images/saber.png); */
+    background-color: rgb(246, 246, 246);
+}
+
 .header {
     height: 42px;
     margin: 30px auto;
@@ -107,14 +112,95 @@
     margin-top: 20px;   
 }
 
-.each ul li {
+.each ul li{
     float: left;
-    height:auto;
+    height:60px;
+    width: 600px;
+}
+.each ul li a{
+    height:60px;
+    line-height: 60px;
+    font-size: 20px;
+    text-align: center;
+    padding:20px 200px;
+    color:#050505;
 }
 
-.bg {
-    /* background-image: url(images/saber.png); */
-    background-color: rgb(246, 246, 246);
+.each ul li a:hover {
+    color:rgb(253, 81, 81);
 }
+
+.each ul li:hover {
+    background:rgb(25, 189, 253);
+}
+
+.box-bd {
+    height: 950px;
+    background-color: #f0f0f0;
+    color: #dadada;
+}
+
+.box-bd ul li {
+    float:left;
+    width: 600px;
+    /* background-color: pink; */
+}
+.box-bd ul li img {
+    width: 100%;
+}
+
+.box-bd .big1:hover {
+    background-color: pink;
+}
+
+.box-bd .big2:hover {
+    background-color: skyblue;
+}
+
+.footer {
+    height: 300px;
+    margin: 60px 0px;
+    background-color: #f0f0f0;
+
+    /* color:pink; */
+}
+
+.footer .left {
+    float:left;
+    width:auto;
+}
+
+.footer div div img {
+    margin-top: 30px;
+}
+
+.footer div div p {
+    font-size: 16px;
+    color:#666;
+    margin: 10px 30px;
+}
+
+.footer .right {
+    float: right;
+    width: auto;
+}
+
+.footer .right dl {
+    margin:80px 0px 0px 100px;
+    float:left;
+}
+
+.footer .right dl dt{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px;
+}
+
+.footer .right dl dd{
+    text-align: center;
+    color:rgb(148, 148, 148);
+}
+
+
 
 
