@@ -1,0 +1,135 @@
+{
+  "id": "2302372",
+  "name": "saber",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "19099073",
+      "name": "AlignRight",
+      "font_class": "AlignRight",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "19099074",
+      "name": "AlignCenter",
+      "font_class": "AlignCenter",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "19099076",
+      "name": "AlignLeft",
+      "font_class": "AlignLeft",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "19099082",
+      "name": "ArrowRight",
+      "font_class": "ArrowRight",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "19099083",
+      "name": "ArrowDown",
+      "font_class": "ArrowDown",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "19099084",
+      "name": "ArrowLeft",
+      "font_class": "ArrowLeft",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "19099085",
+      "name": "ArrowsAlt",
+      "font_class": "ArrowsAlt",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "19099086",
+      "name": "ArrowUp",
+      "font_class": "ArrowUp",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "19099103",
+      "name": "CaretUp",
+      "font_class": "CaretUp",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "19099104",
+      "name": "CaretRight",
+      "font_class": "CaretRight",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "19099106",
+      "name": "CaretLeft",
+      "font_class": "CaretLeft",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "19099109",
+      "name": "Check",
+      "font_class": "Check",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "19099111",
+      "name": "CaretDown",
+      "font_class": "CaretDown",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "19099112",
+      "name": "Close",
+      "font_class": "Close",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "19099116",
+      "name": "CloseCircle",
+      "font_class": "CloseCircle",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "19099118",
+      "name": "CheckCircle",
+      "font_class": "CheckCircle",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "19099268",
+      "name": "PlayCircle",
+      "font_class": "PlayCircle",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "19099277",
+      "name": "PlusCircle",
+      "font_class": "PlusCircle",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    }
+  ]
+}

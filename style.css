@@ -1,29 +1,60 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
+.shortcut {
+    height: 40px;
+    background-color: rgb(233, 235, 236);
 }
 
-.w {
-    width: 1200px;
-    margin: auto;
-}
-
-.bg {
-    /* background-image: url(images/saber.png); */
-    background-color: rgb(246, 246, 246);
-}
 
 .header {
     height: 42px;
-    margin: 30px auto;
+    padding: 11px;
+    border-bottom:#b0d9ff 2px solid;
 }
+
+.menu {
+    position: relative;
+    float: left;
+    padding: 11px 15px 15px 0px;
+    font-family: "iconfont";
+    font-size: 24px;
+    
+}
+
+.menu a:hover {
+    color:rgb(255, 100, 100);
+}
+
+.menu ul {
+    visibility: hidden;
+    position: absolute;
+    top: 80%;
+    width: 275px;
+    background: skyblue;
+    transition: all 1s ease;
+}
+
+.menu ul li {
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    text-indent: 0.5em;
+    color: hotpink;
+}
+
+.menu a:hover + ul {
+    visibility: visible;
+}
+
 
 .logo {
     float: left;
-    height: 42px;
     width: 100px;
+    
+}
+
+.logo h1 a {
+    display: block;
+    background: url(images/logo.png) no-repeat;
+    text-indent: -999em;
 }
 
 .nav {
@@ -36,7 +67,6 @@
 }
 
 .nav ul li a{
-
     padding:0 15px; 
     line-height: 42px;
     font-size: 18px;
@@ -61,48 +91,75 @@
     float:left;
     width: 360px;
     height: 38px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     border-style: solid;
     border-color:rgb(25, 189, 253);
     border-right: none;
     color:silver;
     font-size: 16px;
     padding-left:15px;
+    outline: none;
 }
 
 .search button {
     float:left;
     width: 60px;
     height: 42px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     border:none;
     background-color: rgb(25, 189, 253);
     font-size: 16px;
+    color:#666;
+    outline: none;
+    transition: all 0.5 ease;
+}
+
+.search button:hover {
+    color: #000;
 }
 
 .banner {
+    position: relative;
     height: 550px;
-    background-color: rgb(255, 255, 255);
-    background-image: url(images/saber.png);
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: 140% -30px;
-
-
+    transition: all 0.3s ease;  
 }
+
 .banner:hover {
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.657);
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.657);
+}
+
+
+.banner .saber {
+    height: 550px;
+    background-image: url(images/saber.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 187% 9%;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.banner:hover .saber{
+    background-size: 85%;
 }
 
 .banner .name {
-    height: 400px;
+    position: absolute;
+    height: 550px;
+    width: 100%;
     background-image: url(images/saber-1.png);
     background-size: 110%;
     background-repeat: no-repeat;
-    background-position: left 30%;
+    background-position: center 30%;
+    transition: all 0.3s ease;
 }
+
+.banner .name:hover {
+    background-size: 130%;
+}
+
 
 .each {
     height: 60px;
@@ -200,7 +257,3 @@
     text-align: center;
     color:rgb(148, 148, 148);
 }
-
-
-
-
