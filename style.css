@@ -5,6 +5,7 @@
 
 
 .header {
+    position:relative;
     height: 42px;
     padding: 11px;
     border-bottom:#b0d9ff 2px solid;
@@ -48,12 +49,18 @@
 .logo {
     float: left;
     width: 100px;
-    
+    height: 42px;
 }
 
-.logo h1 a {
+.logo a {
+    position:absolute;
+    top: -5px;
+    /* left: -20px; */
     display: block;
+    width: 200px;
+    height: 75px;
     background: url(images/logo.png) no-repeat;
+    background-size: 100%;
     text-indent: -999em;
 }
 
@@ -290,5 +297,7 @@
 
 .footer .right dl dd{
     text-align: center;
-    color:rgb(148, 148, 148);
+}
+.footer .right dl a {
+    color:rgb(155, 155, 155);
 }
